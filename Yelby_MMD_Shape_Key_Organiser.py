@@ -12,7 +12,7 @@ def run():
     sk = ob.data.shape_keys.key_blocks
 
     #ShapeKeys
-    cat_names = ["~~EyeBrows~~","~~Mouth~~","~~Eyes~~","~~Other~~","~~NoCat~~","~~Lewd~~","~~FullFace~~"]
+    cat_names = ["~~EyeBrows~~","~~Mouth~~","~~Eyes~~","~~Other~~","~~NoCat~~","~~FullFace~~"]
     
     for idx,cat in enumerate(cat_names):
         if not cat in ob.data.shape_keys.key_blocks: 
@@ -91,16 +91,6 @@ def run():
                     ":3Wide",
                     "Box",
                     "huge ass smile",
-                    
-                    
-                "~~Lewd~~",
-                    "vag spread",
-                    "insertion opening",
-                    "vag open1",
-                    "vag open2",
-                    "Anus",
-                    "Anus2",
-                    
                 "~~NoCat~~"
                 )
 
